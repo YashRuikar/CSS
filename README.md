@@ -3,4 +3,4 @@ This repository contains most of the Important codes I've learned so far and som
 
 # Resources:- 
 
-- [CSS Tutorial In Hindi (With Notes) One Shot Video](https://youtu.be/Edsxf_NBFrw?si=MuCjDqt72Gam-Egm)
+- [CSS Tutorial In Hindi (With Notes) CodeWithHarry One Shot Video](https://youtu.be/Edsxf_NBFrw?si=MuCjDqt72Gam-Egm)

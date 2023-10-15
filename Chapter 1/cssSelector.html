@@ -44,6 +44,27 @@
             margin: 0;
             padding: 0;
         }
+
+        /* Pseudo Selector */
+        a:visited{
+            color: yellow;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: palevioletred;
+        }
+
+        span:first-child{
+            background-color: aqua;
+        }
     </style>
 </head>
 <body>
@@ -69,5 +90,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quae pariatur ex, nesciunt sint placeat neque reprehenderit earum et, molestiae doloremque dolorum repellat exercitationem ipsum est provident tenetur! Vitae, maxime.</p>
         </article>
     </div>
+
+    <a href="https://google.com">Go to Google</a>
+
+    <a href="https://facebook.com">Go to Facebook</a>
+
+    <main class="one">
+        <span>I am first</span>
+        <span>I am second</span>
+    </main>
 </body>
 </html>

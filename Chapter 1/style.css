@@ -6,3 +6,8 @@
     background-color: brown;
     color: white;
 }
+
+li[value="4"]{
+    color: blue;
+    background-color: bisque;
+}

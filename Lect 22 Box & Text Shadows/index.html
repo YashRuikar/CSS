@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box & Text Shadows</title>
+    <style>
+        .container{
+            background-color: gray;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            background-color: lightslategray;
+            width: 330px;
+            height: 230px;
+            border: 1px solid brown;
+            margin: 5px;
+            padding: 5px;
+
+
+            /* Box Shadows */
+
+            /* box-shadow: 10px 15px 50px brown; */
+
+            /* box-shadow: 10px 15px 5px 100px rgba(78, 158, 211, 0.7); */
+
+            /* box-shadow: inset 10px 15px brown; */
+
+            /* box-shadow: 10px 15px red, 15px 8px green; */
+
+        }
+
+        #head1{
+            /* Text Shadows */
+
+            /* text-shadow: 12px 13px 1px ghostwhite; */
+
+            /* text-shadow: yellow 12px 13px 2px; */
+
+            /* text-shadow: wheat 12px 13px; */
+
+            text-shadow: 12px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 id="head1">Yash Enterprise</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam repellat itaque porro? Assumenda quaerat itaque quo sapiente, dicta delectus?</p>
+        </div>
+    </div>
+</body>
+</html>

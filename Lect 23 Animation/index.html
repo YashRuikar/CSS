@@ -26,6 +26,99 @@
             border-radius: 10px;
             margin: 10px;
             position: relative;
+
+
+            /* Animation */
+
+            /* animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-iteration-count: 5;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-fill-mode: backwards; */
+
+
+            /* Shorthand Notation */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+            animation: rightMovement 5s linear 1s infinite alternate none;
+        }
+
+        @keyframes rightMovement {
+            from{
+                top: 0;
+                left: 0;
+            }
+
+            to{
+                top: 0;
+                left: 1150px;
+            }
+        }
+
+
+        #box2{
+            width: 350px;
+            height: 80px;
+            background-color: lightseagreen;
+            border: 3px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            top: 30%;
+            left: 40%;
+
+            animation: leftMovement 5s linear 1s infinite alternate none;
+        }
+
+        @keyframes leftMovement {
+            from {
+                top: 470px;
+                left: 1150px;
+            }
+
+            to {
+                top: 470px;
+                left: 0;
+            }
+        }
+
+
+        #circle{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 3px solid yellow;
+            border-radius: 50px;
+            margin: 10px;
+            position: relative;
+            top: 30%;
+            left: 45%;
+
+            animation: circleMovement 10s ease-in-out 0s infinite alternate-reverse none;
+        }
+
+        @keyframes  circleMovement{
+            0%{
+                top: 1%;
+                left: 5%;
+            }
+
+            30%{
+                top: 1%;
+                left: 90%;
+            }
+
+            60%{
+                top: 58%;
+                left: 5%;
+            }
+
+            100%{
+                top: 58%;
+                left: 90%;
+            }
         }
     </style>
 </head>

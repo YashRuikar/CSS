@@ -98,10 +98,11 @@ a{
 
 .leftBox h2{
     font-size: 2rem;
+    font-style: italic;
 }
 
 .ingBox{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .recipeBox{
@@ -130,4 +131,8 @@ a{
 .rightBox .overlay span{
     color: #fff;
     font-size: 1.2rem;
+}
+
+.leftBox h3{
+    font-size: 1.5vw;
 }
